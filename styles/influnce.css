@@ -1,0 +1,86 @@
+/* shared styles  */
+/* Inter font family  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;700;800&family=Poppins&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* Poppins font family  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;700;800&family=Poppins&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+:root {
+    --primary-color: #3A3A3A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin-top: 80px;
+}
+
+.btn-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 8px 20px;
+    gap: 8px;
+    color: white;
+    border: 0;
+    margin-top: 10px;
+}
+
+/* nav section styles  */
+h1 {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.list-items li {
+    list-style: none;
+}
+
+.list-items a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* banner section styles  */
+.banner-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.banner-title {
+    color: var(--primary-color);
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: var(--primary-color);  
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}

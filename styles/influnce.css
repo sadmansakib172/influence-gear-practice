@@ -49,7 +49,7 @@ nav {
 
 .list-items>ul {
     display: flex;
-    gap: 30px;
+    margin-left:30px;
 }
 
 .list-items li {
@@ -83,4 +83,26 @@ nav {
     font-size: 16px;
     font-weight: 600;
     margin-top: 10px;
+}
+
+/* responsive styles  */
+/* mobile devices small screen sizes styles  */
+@media screen and (max-width: 576px){
+    .nav-container ,
+    .list-items>ul ,
+    .banner-container
+    {
+        flex-direction: column;
+    }
+    .list-items li{
+        margin-top: 20px;
+    }
+    .banner-container img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .banner-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

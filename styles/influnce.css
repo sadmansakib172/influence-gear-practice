@@ -85,6 +85,20 @@ nav {
     margin-top: 10px;
 }
 
+/* .pictures-section styles  */
+.pictures-section{
+    margin-top:60px;
+}
+.pictures-container{
+   text-align: center;
+   margin:0 200px;
+   box-shadow: 2px 2px 4px white;
+}
+.pictures-container img{
+    padding: 30px 0;
+    margin-left:60px;
+}
+
 /* responsive styles  */
 /* mobile devices small screen sizes styles  */
 @media screen and (max-width: 576px){
@@ -104,5 +118,9 @@ nav {
     .banner-container{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .pictures-container{
+        margin:0;
+        text-align: start;
     }
 }

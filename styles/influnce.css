@@ -137,6 +137,15 @@ nav {
     margin-left: 1220px;
 }
 
+/* featured-section styles  */
+.featured-section{
+    margin-top: 120px;
+    display: flex;
+    padding:0 150px;
+    gap:90px;
+    align-items: center;
+}
+
 /* responsive styles  */
 /* mobile devices small screen sizes styles  */
 @media screen and (max-width: 576px) {

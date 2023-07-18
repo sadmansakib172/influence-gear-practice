@@ -141,7 +141,7 @@ nav {
 .featured-section{
     margin-top: 120px;
     display: flex;
-    padding:0 150px;
+    padding:0 164px;
     gap:90px;
     align-items: center;
 }
@@ -183,11 +183,15 @@ nav {
         grid-template-columns: 1fr;
         padding:0 20px;
     }
-    .fa-arrow-right{
+    .fa-arrow-medium{
         margin-left: 320px;
     }
     .featured-section{
        padding:0 20px;
        gap:20px;
+    }
+    .featured-content .btn-primary{
+        width: 150px;
+        margin-top: 15px;
     }
 }

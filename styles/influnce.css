@@ -145,6 +145,9 @@ nav {
     gap:90px;
     align-items: center;
 }
+.featured-section img{
+    width: 100%;
+}
 
 /* responsive styles  */
 /* mobile devices small screen sizes styles  */
@@ -152,7 +155,9 @@ nav {
 
     .nav-container,
     .list-items>ul,
-    .banner-container {
+    .banner-container ,
+    .featured-section
+    {
         flex-direction: column;
     }
 
@@ -175,7 +180,14 @@ nav {
         text-align: start;
     }
     .popular-content{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         padding:0 20px;
+    }
+    .fa-arrow-right{
+        margin-left: 320px;
+    }
+    .featured-section{
+       padding:0 20px;
+       gap:20px;
     }
 }

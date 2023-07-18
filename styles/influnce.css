@@ -49,11 +49,11 @@ nav {
 
 .list-items>ul {
     display: flex;
-    margin-left:30px;
 }
 
 .list-items li {
     list-style: none;
+    margin-left: 30px;
 }
 
 .list-items a {
@@ -79,48 +79,90 @@ nav {
 }
 
 .banner-description {
-    color: var(--primary-color);  
+    color: var(--primary-color);
     font-size: 16px;
     font-weight: 600;
     margin-top: 10px;
 }
 
 /* .pictures-section styles  */
-.pictures-section{
-    margin-top:60px;
+.pictures-section {
+    margin-top: 60px;
 }
-.pictures-container{
-   text-align: center;
-   margin:0 200px;
-   box-shadow: 2px 2px 4px white;
+
+.pictures-container {
+    text-align: center;
+    margin: 0 200px;
+    box-shadow: 2px 2px 4px white;
 }
-.pictures-container img{
+
+.pictures-container img {
     padding: 30px 0;
-    margin-left:60px;
+    margin-left: 60px;
+}
+
+/* popular collection styles  */
+.popular-collection {
+    margin-top: 180px;
+}
+
+.popular-collection .popular-title {
+    text-align: center;
+}
+
+.popular-content {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 200px;
+    gap: 30px 40px;
+}
+
+.box {
+    padding: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.flex-star {
+    display: flex;
+    gap: 10px;
+}
+
+.normal-btn {
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    border:0;
+    margin-left: 1220px;
 }
 
 /* responsive styles  */
 /* mobile devices small screen sizes styles  */
-@media screen and (max-width: 576px){
-    .nav-container ,
-    .list-items>ul ,
-    .banner-container
-    {
+@media screen and (max-width: 576px) {
+
+    .nav-container,
+    .list-items>ul,
+    .banner-container {
         flex-direction: column;
     }
-    .list-items li{
+
+    .list-items li {
         margin-top: 20px;
     }
-    .banner-container img{
+
+    .banner-container img {
         width: 100%;
         margin-top: 30px;
     }
-    .banner-container{
+
+    .banner-container {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .pictures-container{
-        margin:0;
+
+    .pictures-container {
+        margin: 0;
         text-align: start;
     }
 }
